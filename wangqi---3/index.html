@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="swiper/swiper-3.3.1.min.css"/>
+		<style type="text/css">
+			body,div{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				height:100%;
+			}
+			.swiper-container{
+				width:100%;
+				height:100%;
+			}
+			.swiper-wrapper{
+				width:100%;
+				height:100%;
+			}
+			.swiper-wrapper div{
+				width:100%;
+				height: 100%;	
+			}	
+			.swiper-wrapper .slide1{
+				background: url(img/ban2.jpg) no-repeat;
+				background-size:cover;
+				background-position: center center; 
+			}
+			.swiper-wrapper .slide2{
+				background: url(img/ban3.jpg) no-repeat;
+				background-size:cover;
+				background-position: center center; 
+			}
+			.swiper-wrapper .slide3{
+				background: url(img/ban4.jpg) no-repeat;
+				background-size:cover;
+				background-position: center center; 
+			}
+			.swiper-wrapper .slide4{
+				background: url(img/ban5.jpg) no-repeat;
+				background-size:cover;
+				background-position: center center; 
+				position: relative;
+			}
+			.swiper-wrapper .slide4 a{
+				display: block;
+				text-decoration: none;
+				width:50%;
+				height:50px;
+				text-align: center;
+				line-height: 50px;
+				font-size: 20px;
+				color:#fff;
+				font-family: "微软雅黑";
+				position: absolute;
+				left:25%;
+				bottom: 20%;
+				background: #e14047;
+				border-radius:10px ;
+			}
+			.swiper-pagination-bullet-active {
+				opacity: 1;
+				background: #E14047
+			}
+		</style>
+		<script type="text/javascript" src="libs/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="swiper/swiper-3.3.1.min.js" ></script>
+		<script type="text/javascript" src="js/zepto.min.js" ></script>
+		<script>
+			$(function () {
+				var swiper = new Swiper(".swiper-container",{
+					pagination: '.swiper-pagination'
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide slide1"></div>
+				<div class="swiper-slide slide2"></div>
+				<div class="swiper-slide slide3"></div>
+				<div class="swiper-slide slide4">
+					<a href="prolist.html">开始体验</a>
+				</div>
+			</div>
+			<div class="swiper-pagination">
+				
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,181 @@
+@charset "utf-8";
+html,body{
+	width:100%;
+	height: 100%;
+}
+body{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+header{
+	width: 100%;
+	height: 48px;
+	background: #A90506;
+	position:relative;
+}
+header h2{
+	width:100%;
+	height:48px;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+}
+header a{
+	display: block;
+	width:60px;
+	height:30px;
+	position: absolute;
+	right:10px;
+	top:9px;
+	text-align: center;
+	line-height: 30px;
+	border:1px solid #000000;
+	border-radius: 5px;
+	color:#FFFFFF;
+	font-size:16px;
+	font-family: "微软雅黑";
+}
+.cart-list{
+	width:100%;
+	-webkit-box-flex: 1;
+	overflow: hidden;
+	height: 100%;
+}
+.cart-list .total{
+	width:100%;
+	height: 48px;
+	line-height: 48px;
+	background: #484850;
+	color:#fff;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	overflow: hidden;
+
+}
+.total em{
+	font-style: normal;
+}
+.total span{
+	margin-left: 10px;
+}
+.total b{
+	margin: 0 0 0 10px;
+	font-weight: normal;
+}
+.total i{
+	font-style: normal;
+	color: red;
+	font-weight: 900;
+	font-size:16px
+}
+.pro-list{
+	width:100%;
+	height:100px;
+	border-bottom: 1px solid #484850;
+	-webkit-box-flex: 1;
+}
+#main{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	/*-webkit-box-flex: 1;*/
+}
+#main .main-main{
+	/*height: 5000px;*/
+	width:100%;
+}
+
+.pro-list dl{
+	width:100%;
+	height:100px;
+	position: relative;
+	background: #fff;
+	display: -webkit-box;
+}
+
+.pro-list dl dt{
+	/*float: left;*/
+	width:70px;
+	height: 70px;
+	border: 1px solid #222;
+	/*margin:15px;*/
+	position: absolute;
+	left: 15px;
+	top:15px
+}
+.pro-list dl dt img{
+	width:70px;
+	height: 70px;
+}
+.pro-list dl dd.allinfo{
+	/*float: left;*/
+	-webkit-box-flex: 1;
+	/*width:50%;*/
+	height: 70px;
+	position: absolute;
+	left:100px;
+	top:15px
+}
+dl dd.allinfo .this-name{
+	width:80%;
+
+}
+dd.allinfo .this-price{
+	color: #A90506;
+}
+dd.allinfo .this-num a{
+	display:block;
+	width:20px;
+	height:20px;
+	line-height: 20px;
+	color:#fff;
+	background: #414141;
+	border-radius:5px ;
+	text-align: center;
+	float: left;
+}
+dd.allinfo .this-num input{
+	width:40px;
+	height:20px;
+	float: left;
+	margin: 0 10px;
+	text-align: center;
+	border-radius: 6px;
+}
+
+
+.pro-list dl dd.dele{
+	width:20px;
+	height:20px;
+	position: absolute;
+	right: 10px;
+	top:10px;
+	font-size:16px;
+}
+
+footer{
+	width:100%;
+	height:48px;
+	background: #484850;
+	display: -webkit-box;
+}
+footer div{
+	width:25%;
+	text-align: center;
+	height: 48px;
+}
+footer div.active-div{
+	background: url(../img/divbg.jpg) repeat-x top;
+}
+footer div .fa{
+	display: block;
+	font-size:20px;
+	color: #fff;
+	margin-top:5px;
+}
+footer div span{
+	font-family: "微软雅黑";
+	color: #fff;
+	font-size: 14px;
+}

@@ -1,0 +1,143 @@
+@charset "utf-8";
+html,body{
+	width:100%;
+	height: 100%;
+}
+body{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+#header{
+	width:100%;
+	height:48px;
+	background-color: #A90506;
+	position: relative;
+}
+#header h2{
+	height:48px;
+	width:100%;
+	text-align: center;
+	line-height: 48px;
+	color:#fff;
+}
+#header span{
+	display: block;
+	position: absolute;
+	right:5%;
+	top:9px;
+	width:50px;
+	height:30px;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
+}
+#header span i{
+	font-size: 24px;
+	color: #fff;
+}
+#wrapper{
+	width:100%;
+	-webkit-box-flex: 1;
+	overflow: hidden;
+}
+#wrapper #typelist{
+	background: rgba(0,0,0,0.4);
+}
+#wrapper #typelist ul{
+	height: 32px;
+	/*display: -webkit-box;*/
+	overflow: hidden;
+}
+#wrapper #typelist li{
+	display: inline-block;
+	font-size: 16px;
+	color:#000000;
+	/*-webkit-box-flex: 1;*/
+	line-height: 32px;
+	width:50px;
+	text-align: center;
+	position: relative;
+}
+#wrapper #typelist li.active{
+	color:#fff
+}
+#wrapper #typelist li.active b{
+	position: absolute;
+	bottom: 0;left:20px;
+	width:0;
+	height:0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom:4px solid #fff;
+}
+#wrapper #prolist{
+	overflow: hidden;
+	position: relative;
+}
+#wrapper #prolist ul{
+	width:100%;
+	display: -webkit-box;
+	padding-top: 30px;
+}
+#wrapper #prolist ul li{
+	display: inline-block;
+	width:46%;
+	height: 320px;
+	margin:0 2% ;
+}
+
+#wrapper #prolist li img{
+	display: block;
+	width:95%;
+	height:240px;
+	margin: 0 auto;
+	border: 1px solid #222;
+}
+#wrapper #prolist li span{
+	display: block;
+	width:90%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin:10px auto 0;
+	height:24px;
+	text-align: center;
+	line-height: 24px;
+}
+#wrapper #prolist li strong{
+	text-align: center;
+	color:#A90506;
+	display: block;
+	margin-top:10px;
+	width:90%;
+}
+footer{
+	width:100%;
+	height:48px;
+	background: #484850;
+	display: -webkit-box;
+}
+footer div{
+	width:25%;
+	text-align: center;
+}
+footer div.active-div{
+	background: url(../img/divbg.jpg) repeat-x top;
+}
+footer div .fa{
+	display: block;
+	font-size:20px;
+	color: #fff;
+	margin-top:5px;
+}
+footer div span{
+	font-family: "微软雅黑";
+	color: #fff;
+	font-size: 14px;
+}
+
+
+
+
+
